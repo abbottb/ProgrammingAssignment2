@@ -4,10 +4,10 @@
 makeCacheMatrix <- function(x = matrix()) {
         
         ## makeCacheMatrix stores a list of 4 functions
-        ## get returns the matrix x
-        ## set stores the value of the matrix x
-        ## get inverse returns the value of the inverse matrix m
-        ## set inverse stores the value of the inverse matrix m
+        ## 1. get returns the matrix x
+        ## 2. set stores the value of the matrix x
+        ## 3. get inverse returns the value of the inverse matrix m
+        ## 4. set inverse stores the value of the inverse matrix m
         
         inv <- NULL
         set <- function(y) {
